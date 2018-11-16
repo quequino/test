@@ -1,20 +1,28 @@
 {
   "name": "test",
+  "version": "1.0.0",
+  "description": "Simple Node.js Command Line Weather Application",
+  "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "env": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmorelli25/simple-nodejs-weather-app.git"
   },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
+  "author": "cipq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmorelli25/simple-nodejs-weather-app/issues"
   },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  "homepage": "https://github.com/bmorelli25/simple-nodejs-weather-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
+  },
+  "keywords": []
 }
